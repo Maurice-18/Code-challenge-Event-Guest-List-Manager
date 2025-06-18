@@ -1,0 +1,46 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 30px;
+     background-color: burlywood
+}
+
+.container {
+    background-color: sienna;
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.guest-item {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.category-Friend{
+    border-left: 10px solid blue;
+}
+
+.category-Family{
+    border-left: 10px solid blueviolet;
+}
+
+.category-Colleague{
+    border-left: 10px solid green;
+}
+
+button{
+    margin-left: 10px;
+}
+
